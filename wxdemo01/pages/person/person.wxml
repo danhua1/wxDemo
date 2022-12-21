@@ -1,0 +1,6 @@
+<!--pages/person/person.wxml-->
+<view>
+<block wx:for="{{count}}" wx:for-item="itemName" wx:key="*this">
+  <view> 列表{{itemName}} </view>
+</block>
+</view>

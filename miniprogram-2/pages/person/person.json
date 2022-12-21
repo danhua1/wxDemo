@@ -1,0 +1,9 @@
+{
+  "usingComponents": {},
+  "navigationBarTitleText": "个人",
+  "enablePullDownRefresh": true,
+  "onReachBottomDistance": 0,
+  "backgroundColorTop": "#152451"
+
+  
+}

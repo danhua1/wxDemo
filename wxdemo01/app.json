@@ -1,0 +1,46 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/favor/favor",
+    "pages/order/order",
+    "pages/person/person"
+  ],
+  "window":{
+    "backgroundTextStyle":"dark",
+    "navigationBarBackgroundColor": "#ff5777",
+    "navigationBarTitleText": "demo",
+    "navigationBarTextStyle":"black"
+  },
+  "entryPagePath": "pages/person/person",
+
+  "tabBar": {
+    "selectedColor": "#ff5777",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "/assets/tabbar/home.png",
+      "selectedIconPath": "/assets/tabbar/home_active.png"
+    },
+    {
+      "pagePath": "pages/favor/favor",
+      "text": "收藏",
+      "iconPath": "/assets/tabbar/category.png",
+      "selectedIconPath": "/assets/tabbar/category_active.png"
+    },
+    {
+      "pagePath": "pages/order/order",
+      "text": "订单",
+      "iconPath": "/assets/tabbar/cart.png",
+      "selectedIconPath": "/assets/tabbar/cart_active.png"
+    },
+    {
+      "pagePath": "pages/person/person",
+      "text": "个人",
+      "iconPath": "/assets/tabbar/profile.png",
+      "selectedIconPath": "/assets/tabbar/profile_active.png"
+    }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}
